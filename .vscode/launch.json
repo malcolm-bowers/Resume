@@ -8,6 +8,12 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
+            "file":"${workspaceFolder}/index.html"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open index.html",
             "file": "/Users/malcolmbowers/Git Repositories/Resume/index.html"
         }
     ]
