@@ -49,16 +49,12 @@ a {
   text-align: center;
 }
 
-.resources ul {
-  margin-top: 30px;
-  text-align: center;
-}
 
 .resources li {
+  padding: 30px;
   float: none;
-  display: inline-flex;
+  display: inline-block;
   text-align: center;
-  margin-right: 6%;
   list-style: none;
   font-weight: 400;
 }
@@ -79,6 +75,8 @@ a {
   content: "";
   position: absolute;
   top: 0;
+  left: 5%;
+  right: 5%;
   width: 90%;
   height: 1px;
   background-image: linear-gradient(to right, transparent, rgb(48, 49, 51), transparent);
