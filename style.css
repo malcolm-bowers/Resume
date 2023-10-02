@@ -79,3 +79,18 @@ a {
   height: 1px;
   background-image: linear-gradient(to right, transparent, rgb(48, 49, 51), transparent);
 }
+
+.experience {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.education {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.hobbies {
+  margin-left: 30px;
+  margin-right: 30px;
+}
