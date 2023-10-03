@@ -56,11 +56,19 @@ a {
 }
 
 .skills {
-  padding: 30px;
+  padding-top: 30px;
   margin-right: 30px;
   margin-left: 30px;
   column-count: 2;
   text-align: left;
+  font-size: 16px;
+}
+
+.skills ul {
+  padding: 0;
+  margin-top: 0;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .resources {
