@@ -33,6 +33,7 @@ a {
   background-color: #333333f2;
   color: #ffffff;
   text-align: center;
+  box-sizing: border-box;
 }
 
 .latestProjects {
