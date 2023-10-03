@@ -48,7 +48,7 @@ a {
 }
 
 .summary {
-  padding-top: 10px;
+  padding: 10px;
   margin-left: 30px;
   margin-right: 30px;
   text-align: left;
@@ -117,7 +117,6 @@ footer {
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: #a803b758;
 }
 
 .experience {
@@ -125,6 +124,7 @@ footer {
   margin-right: 30px;
   text-align: left;
   background-color: #a803b758;
+  padding: 10px;
 }
 
 .education {
@@ -132,12 +132,14 @@ footer {
   margin-right: 30px;
   text-align: left;
   background-color: #a803b758;
+  padding: 10px;
 }
 
 .hobbies {
   margin-left: 30px;
   margin-right: 30px;
   text-align: left;
+  padding: 10px;
   background-color: #a803b758;
 }
 
