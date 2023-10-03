@@ -85,7 +85,10 @@ a {
 }
 
 .resources li {
-  padding: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   float: none;
   display: inline-block;
   text-align: justify;
