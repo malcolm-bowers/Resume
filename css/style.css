@@ -1,6 +1,5 @@
 body {
   font-family: sans-serif;
-  background-color: #a803b758;
   color: rgb(0, 0, 0);
   font-size: 16px;
   min-height: 100vh;
@@ -53,6 +52,7 @@ a {
   margin-left: 30px;
   margin-right: 30px;
   text-align: left;
+  background-color: #a803b758;
 }
 
 .skills {
@@ -62,6 +62,7 @@ a {
   column-count: 2;
   text-align: left;
   font-size: 16px;
+  background-color: #a803b758;
 }
 
 .skills ul {
@@ -116,24 +117,28 @@ footer {
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
+  background-color: #a803b758;
 }
 
 .experience {
   margin-left: 30px;
   margin-right: 30px;
   text-align: left;
+  background-color: #a803b758;
 }
 
 .education {
   margin-left: 30px;
   margin-right: 30px;
   text-align: left;
+  background-color: #a803b758;
 }
 
 .hobbies {
   margin-left: 30px;
   margin-right: 30px;
   text-align: left;
+  background-color: #a803b758;
 }
 
 .navigationBar {
