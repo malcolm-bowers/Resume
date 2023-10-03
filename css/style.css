@@ -63,7 +63,6 @@ a {
   column-count: 2;
   text-align: left;
   background-color: #a803b758;
-  font-size: 16px;
 }
 
 .skills ul {
@@ -79,6 +78,7 @@ a {
 
 .resources li {
   padding: 30px;
+  font-size: 16px;
   float: none;
   display: inline-block;
   text-align: justify;
