@@ -28,7 +28,7 @@ a {
   margin: 0;
   padding: 0;
   margin: 0%;
-  background-color: #333;
+  background-color: #333333f2;
   color: #ffffff;
   text-align: center;
   top: 0;
@@ -100,7 +100,7 @@ footer {
   text-align: center;
   background-color: #dbc4dd;
   justify-content: center;
-  background-color: #333;
+  background-color: #333333f2;
   color: #ffffff;
 }
 
