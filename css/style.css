@@ -65,7 +65,9 @@ a {
   font-weight: 400;
 }
 
-.footer {
+footer {
+  position: relative;
+  bottom: 0;
   width: 100%;
   text-align: center;
   background-color: #dbc4dd;
