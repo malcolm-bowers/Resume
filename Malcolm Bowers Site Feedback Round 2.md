@@ -15,7 +15,7 @@
 * Maybe add a small shadow, lightly opaque, around your foreground container. Maybe the left, right and bottom sections, that way you don’t shadow into your title container. Actually, I’d even consider shadow around the left-right of the title container too. 
 
 ## Advanced Feedback
-I just want to start this section by saying, this is what I would recommend one of my developers to do. Some of this may be too time consuming or challenging; don’t sweat implementing these unless you really want to. 
+I just want to start this section by saying, this is what I would recommend one of my developers to do. Some of this may be too time consuming or challenging; don’t sweat implementing these unless you really want to.
 * **Implement Media:**
   * Something like this can really make your site pop. Take a look at the site I linked above. Switch through the pages, you’ll notice the header always has an image of some sort; with the exception of the team page. Try implementing some images that catch the users attention while also being relevant to the page itself. I would avoid full page headers, especially in this scenario, and stick to smaller headers. This would be an example: [Customized Payment Solutions](https://clearviewmc.net/customized-payment-solutions) 
   * Add general media to your webpages. Maybe some icons in your titles. Scroll down on the homepage of the site above, you’ll notice how icons can be used to enhance a title/header. A great place to implement icons would be your contact page. Phone, email, social media icons, etc. 
