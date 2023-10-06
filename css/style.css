@@ -48,7 +48,7 @@ a {
   text-align: center;
   align-items: center;
   justify-content: center;
-  padding-top: 25px;
+  padding-top: 5px;
   padding-left: 25px;
   padding-right: 25px;
   background-color: #a2becc;
@@ -195,3 +195,17 @@ footer {
   overflow: hidden;
   background-color: #333;
 }
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 60%;
+  /* 16:9 */
+  height: 0;
+}
+
+.videoWrapper iframe {
+  width: 80vw;
+  height: calc(80vw/1.77777778);
+}
+
+
