@@ -60,7 +60,7 @@ a {
   padding: 25px;
   margin: 0 auto;
   text-align: left;
-  background-color: #a803b758;
+  background-color: #a803b71c;
   max-width: 1080px;
 }
 
@@ -69,7 +69,7 @@ a {
   margin: 0 auto;
   column-count: 2;
   text-align: left;
-  background-color: #a803b758;
+  background-color: #a803b71c;
   max-width: 1080px;
 }
 
@@ -101,7 +101,6 @@ footer {
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
-  background-color: #dbc4dd;
   justify-content: center;
   background-color: #333333f2;
   color: #ffffff;
@@ -133,7 +132,7 @@ footer {
 .experience {
   margin: 0 auto;
   text-align: left;
-  background-color: #a803b758;
+  background-color: #a803b71c;
   padding: 25px;
   max-width: 1080px;
 }
@@ -141,7 +140,7 @@ footer {
 .education {
   margin: 0 auto;
   text-align: left;
-  background-color: #a803b758;
+  background-color: #a803b71c;
   padding: 25px;
   max-width: 1080px;
 }
@@ -150,7 +149,7 @@ footer {
   margin: 0 auto;
   text-align: left;
   padding: 25px;
-  background-color: #a803b758;
+  background-color: #a803b71c;
   max-width: 1080px;
 }
 
