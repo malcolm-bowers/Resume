@@ -42,6 +42,11 @@ a {
   text-align: center;
   align-items: center;
   justify-content: center;
+  margin: 0 auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: #ffffff;
+  max-width: 1080px;
 }
 
 .sectionHeader {
@@ -204,8 +209,8 @@ footer {
 }
 
 .videoWrapper iframe {
-  width: 90vw;
-  height: calc(90vw/1.77777778);
+  width: 85vw;
+  height: calc(85vw/1.77777778);
 }
 
 
