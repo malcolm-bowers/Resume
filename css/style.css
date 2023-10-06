@@ -204,8 +204,8 @@ footer {
 }
 
 .videoWrapper iframe {
-  width: 80vw;
-  height: calc(80vw/1.77777778);
+  width: 90vw;
+  height: calc(90vw/1.77777778);
 }
 
 
