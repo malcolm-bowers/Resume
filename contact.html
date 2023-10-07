@@ -28,20 +28,43 @@
             <div class="divider div-transparent"></div>
         </div>
         <div class="summary">
-            <p>If you have any questions or inquiries, please don't hesitate to contact me. I am here to assist you.</p>
-            <p>Thank you for your interest in my work.</p>
-            <div class="contactLinks">
-                <h2>Contact Information</h2>
-                <div class="divider div-transparent"></div>
-                <p><strong>Name:</strong> Malcolm Bowers</p>
-                <p><strong>Phone:</strong> <a href="tel:903-603-5520">903-603-5520</a></p>
-                <p><strong>Email:</strong> <a href="mailto:malcolm.bowers@icloud.com">malcolm.bowers@icloud.com</a></p>
-                <p><strong>LinkedIn:</strong> <a
-                        href="https://www.linkedin.com/in/malcolm-bowers-861423180/">https://www.linkedin.com/in/malcolm-bowers-861423180/</a>
-                </p>
-                <p><strong>GitHub:</strong> <a
-                        href="https://github.com/malcolm-bowers">https://github.com/malcolm-bowers</a></p>
+            <div>
+                <p>If you have any questions or inquiries, please don't hesitate to contact me. I am here to assist you.</p>
+                <p>Thank you for your interest in my work.</p>
             </div>
+            <div>
+                <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form.php">
+                    <label for="Name" class="fcf-label">Name:</label>
+                    <div class="fcf-input-group">
+                        <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                    </div>
+                <div class="fcf-form-group">
+                    <label for="Email" class="fcf-label">Email address:</label>
+                    <div class="fcf-input-group">
+                        <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                    </div>
+                <div class="fcf-form-group">
+                    <label for="Message" class="fcf-label">Message:</label>
+                    <div class="fcf-input-group">
+                        <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                    </div>
+                </div>
+                <div class="fcf-form-group">
+                    <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
+                </div>
+            </div>
+        </div>
+        <div class="contactLinks">
+            <h2>Contact Information</h2>
+            <div class="divider div-transparent"></div>
+            <p><strong>Name:</strong> Malcolm Bowers</p>
+            <p><strong>Phone:</strong> <a href="tel:903-603-5520">903-603-5520</a></p>
+            <p><strong>Email:</strong> <a href="mailto:malcolm.bowers@icloud.com">malcolm.bowers@icloud.com</a></p>
+            <p><strong>LinkedIn:</strong> <a
+                    href="https://www.linkedin.com/in/malcolm-bowers-861423180/">https://www.linkedin.com/in/malcolm-bowers-861423180/</a>
+            </p>
+            <p><strong>GitHub:</strong> <a
+                    href="https://github.com/malcolm-bowers">https://github.com/malcolm-bowers</a></p>
         </div>
     </main>
 </body>
