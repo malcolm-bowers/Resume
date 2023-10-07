@@ -1,5 +1,4 @@
 name: Azure Static Web Apps CI/CD\
-RUN apt-get update && apt-get install -y --no-install-recommends apt-utils
 
 on:
   push:
