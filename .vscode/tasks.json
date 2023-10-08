@@ -56,16 +56,6 @@
 			"problemMatcher": "$msCompile"
 		},
 		{
-			"type": "func",
-			"dependsOn": "build (functions)",
-			"options": {
-				"cwd": "${workspaceFolder}/bin/Debug/net6.0"
-			},
-			"command": "host start",
-			"isBackground": true,
-			"problemMatcher": "$func-dotnet-watch"
-		},
-		{
 			"label": "clean",
 			"command": "dotnet",
 			"type": "process",
@@ -91,6 +81,16 @@
 			],
 			"problemMatcher": "$msCompile",
 			"dependsOn": "clean"
+		},
+		{
+			"type": "func",
+			"dependsOn": "build (functions)",
+			"options": {
+				"cwd": "${workspaceFolder}/bin/Debug/net6.0"
+			},
+			"command": "host start",
+			"isBackground": true,
+			"problemMatcher": "$func-dotnet-watch"
 		}
 	]
 }
