@@ -39,7 +39,7 @@ jobs:
       - name: Deploy Azure Function
         uses: Azure/functions-action@v1
         with:
-          app-name: 'SendEma'
+          app-name: 'Resume'
           slot-name: 'Production'
           enable-oryx-build: true
           package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/output'
