@@ -6,7 +6,7 @@ async function sendEmail() {
     };
     try {
         showLoader();
-        const response = await fetch("https://contactformwithazure.azurewebsites.net/api/SendEmails", {
+        const response = await fetch("https://emailsv.azurewebsites.net", {
             method: "POST",
             body: JSON.stringify(data),
             headers: { "Content-Type": "application/json" },

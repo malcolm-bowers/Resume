@@ -8,13 +8,19 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file":"${workspaceFolder}/index.html"
+            "file": "${workspaceFolder}/index.html"
         },
         {
             "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
             "file": "/Users/malcolmbowers/Git Repositories/Resume/index.html"
+        },
+        {
+            "name": "Attach to .NET Functions",
+            "type": "coreclr",
+            "request": "attach",
+            "processId": "${command:azureFunctions.pickProcess}"
         }
     ]
 }
