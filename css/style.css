@@ -15,6 +15,7 @@ body {
   padding: 0;
   margin: 0 auto;
   float: none;
+  background-color: #a803b72f;
 }
 
 #pageMain {
@@ -41,13 +42,18 @@ a {
   text-align: center;
   align-items: center;
   justify-content: center;
+  margin: 0 auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: #ffffff;
+  max-width: 1080px;
 }
 
 .sectionHeader {
   text-align: center;
   align-items: center;
   justify-content: center;
-  padding-top: 25px;
+  padding-top: 5px;
   padding-left: 25px;
   padding-right: 25px;
   background-color: #a2becc;
@@ -60,7 +66,7 @@ a {
   padding: 25px;
   margin: 0 auto;
   text-align: left;
-  background-color: #a803b71c;
+  background-color: #ffffff;
   max-width: 1080px;
 }
 
@@ -69,7 +75,7 @@ a {
   margin: 0 auto;
   column-count: 2;
   text-align: left;
-  background-color: #a803b71c;
+  background-color: #ffffff;
   max-width: 1080px;
 }
 
@@ -132,7 +138,7 @@ footer {
 .experience {
   margin: 0 auto;
   text-align: left;
-  background-color: #a803b71c;
+  background-color: #ffffff;
   padding: 25px;
   max-width: 1080px;
 }
@@ -140,7 +146,7 @@ footer {
 .education {
   margin: 0 auto;
   text-align: left;
-  background-color: #a803b71c;
+  background-color: #ffffff;
   padding: 25px;
   max-width: 1080px;
 }
@@ -149,7 +155,7 @@ footer {
   margin: 0 auto;
   text-align: left;
   padding: 25px;
-  background-color: #a803b71c;
+  background-color: #ffffff;
   max-width: 1080px;
 }
 
@@ -193,4 +199,56 @@ footer {
   padding: 0;
   overflow: hidden;
   background-color: #333;
+}
+
+.videoWrapper {
+  position: flex;
+  padding-bottom: 60%;
+  /* 16:9 */
+  height: 0;
+}
+
+.videoWrapper iframe {
+  width: 85vw;
+  height: calc(85vw/1.77777778);
+  max-width: 1080px;
+  max-height: 607.5px;
+}
+
+.fcf-form-class {
+  font-family: -apple-system, Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #000000;
+  text-align: left;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #747474;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #747474;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #5DADE2;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
 }
