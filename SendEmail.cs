@@ -7,6 +7,10 @@ using Microsoft.Azure.WebJobs.Extensions.Http;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
+using System.Configuration;
+using System.Net;
+using System.Net.Mail;
+using System
 
 namespace Company.Function
 {
