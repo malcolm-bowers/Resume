@@ -42,5 +42,5 @@ jobs:
           app-name: 'Resume'
           slot-name: 'Production'
           enable-oryx-build: true
-          package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}'
+          package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/output'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
