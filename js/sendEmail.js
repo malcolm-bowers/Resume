@@ -6,7 +6,7 @@ async function sendEmail() {
     };
     try {
         showLoader();
-        const response = await fetch("https://sendema.azurewebsites.net/api/SendEmails", {
+        const response = await fetch("https://sendema.azurewebsites.net/api/SendEmails?", {
             method: "POST",
             body: JSON.stringify(data),
             headers: { "Content-Type": "application/json" },
