@@ -7,7 +7,7 @@ on:
     branches:
       - main
 env:
-  AZURE_FUNCTIONAPP_PACKAGE_PATH: 'EmailSv'
+  AZURE_FUNCTIONAPP_PACKAGE_PATH: 'api'
   DOTNET_VERSION: '6.0.x'
 jobs:
   deploy-website:
@@ -42,7 +42,7 @@ jobs:
       - name: Deploy Azure Function
         uses: Azure/functions-action@v1
         with:
-          app-name: 'EmailSv'
+          app-name: 'ContactFormWithAzure'
           slot-name: 'Production'
           package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/output'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
