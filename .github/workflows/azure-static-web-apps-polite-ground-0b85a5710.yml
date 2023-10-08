@@ -4,7 +4,8 @@ on:
     branches:
       - main
 env:
-  AZURE_FUNCTIONAPP_PACKAGE_PATH: ''
+  AZURE_FUNCTIONAPP_NAME: 'SendEma'
+  AZURE_FUNCTIONAPP_PACKAGE_PATH: '.'
   DOTNET_VERSION: '6.0.x'
 jobs:
   deploy-website:
