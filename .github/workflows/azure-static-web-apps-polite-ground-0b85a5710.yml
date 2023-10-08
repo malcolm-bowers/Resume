@@ -34,7 +34,7 @@ jobs:
         shell: bash
         run: |
           pushd './${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}'
-          dotnet build --configuration Release --output /bin/Release/net6.0/
+          dotnet build --configuration Release --output /output
           popd
       - name: Deploy Azure Function
         uses: Azure/functions-action@v1
@@ -42,5 +42,5 @@ jobs:
           app-name: 'Resume'
           slot-name: 'Production'
           enable-oryx-build: true
-          package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/bin/Release/net6.0/'
+          package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/output'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
