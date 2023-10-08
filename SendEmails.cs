@@ -7,19 +7,15 @@ using Microsoft.Azure.WebJobs.Extensions.Http;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
-using System.Configuration;
-using System.Net;
-using System.Net.Mail;
-using System
 
 namespace Company.Function
 {
-    public static class SendEmail
+    public static class SendEmails
     {
-        [FunctionName("SendEmail")]
+        [FunctionName("SendEmails")]
         public static async Task<IActionResult> Run([HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route = null)] HttpRequest req, ILogger log)
         {
-            log.LogInformation("SendEmail Function Triggered.");
+            log.LogInformation("SendEmails Function Triggered.");
             string name = req.Query["name"];
             string email = req.Query["email"];
             string message = req.Query["message"];
@@ -29,7 +25,7 @@ namespace Company.Function
             email = email ?? data?.email;
             message = message ?? data?.message;
             var myEmailAddress = Environment.GetEnvironmentVariable("myEmailAddress");
-            var senderEmailAddress = Environment.GetEnvironmentVariable("senderEmailAddress");
+            var senderEmailAddress = Environment.GetEnvironmentVariable("senderEmailAddress");            
             var emailClient = new EmailClient(Environment.GetEnvironmentVariable("AzureCommunicationServicesConnectionString"));
             try
             {
@@ -51,10 +47,10 @@ namespace Company.Function
                 log.LogInformation($"Email sent with message ID: {contactEmailSendOperation.Id} and status: {contactEmailSendOperation.Value.Status}");
                 return new OkObjectResult($"Emails sent.");
             }
-            catch (Exception ex)
+            catch (RequestFailedException ex)
             {
-                log.LogError(ex, "Error sending email.");
-                return new BadRequestObjectResult($"Error sending email.");
+                log.LogError($"Sending email operation failed with error code: {ex.ErrorCode}, message: {ex.Message}");
+                return new ConflictObjectResult("Error sending email");
             }
         }
     }
