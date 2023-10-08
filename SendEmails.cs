@@ -7,6 +7,8 @@ using Microsoft.Azure.WebJobs.Extensions.Http;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
+using Azure;
+using Azure.Communication.Email;
 
 namespace Company.Function
 {
@@ -25,7 +27,7 @@ namespace Company.Function
             email = email ?? data?.email;
             message = message ?? data?.message;
             var myEmailAddress = Environment.GetEnvironmentVariable("myEmailAddress");
-            var senderEmailAddress = Environment.GetEnvironmentVariable("senderEmailAddress");            
+            var senderEmailAddress = Environment.GetEnvironmentVariable("senderEmailAddress");
             var emailClient = new EmailClient(Environment.GetEnvironmentVariable("AzureCommunicationServicesConnectionString"));
             try
             {
