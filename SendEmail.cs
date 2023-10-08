@@ -47,10 +47,10 @@ namespace Company.Function
                 log.LogInformation($"Email sent with message ID: {contactEmailSendOperation.Id} and status: {contactEmailSendOperation.Value.Status}");
                 return new OkObjectResult($"Emails sent.");
             }
-            catch (RequestFailedException ex)
+            catch (Exception ex)
             {
-                log.LogError($"Sending email operation failed with error code: {ex.ErrorCode}, message: {ex.Message}");
-                return new ConflictObjectResult("Error sending email");
+                log.LogError(ex, "Error sending email.");
+                return new BadRequestObjectResult($"Error sending email.");
             }
         }
     }
