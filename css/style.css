@@ -202,7 +202,7 @@ footer {
 }
 
 .videoWrapper {
-  position: flex;
+  position: relative;
   padding-bottom: 60%;
   /* 16:9 */
   height: 0;
@@ -214,3 +214,5 @@ footer {
   max-width: 1080px;
   max-height: 607.5px;
 }
+
+
