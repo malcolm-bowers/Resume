@@ -43,10 +43,14 @@ a {
   align-items: center;
   justify-content: center;
   margin: 0 auto;
+  margin-bottom: 25px;
   padding-left: 25px;
   padding-right: 25px;
   background-color: #ffffff;
   max-width: 1080px;
+  border-radius: 15px;
+  border: 1px solid #33333349;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .sectionHeader {
@@ -56,27 +60,38 @@ a {
   padding-top: 5px;
   padding-left: 25px;
   padding-right: 25px;
-  background-color: #a2becc;
+  background-color: #4a7289d0;
   max-width: 1080px;
   float: none;
   margin: 0 auto;
+  border-radius: 15px;
+  border: 1px solid #33333349;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .summary {
   padding: 25px;
   margin: 0 auto;
+  margin-bottom: 25px;
   text-align: left;
   background-color: #ffffff;
   max-width: 1080px;
+  border-radius: 15px;
+  border: 1px solid #33333349;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .skills {
   padding: 25px;
   margin: 0 auto;
+  margin-bottom: 25px;
   column-count: 2;
   text-align: left;
   background-color: #ffffff;
   max-width: 1080px;
+  border-radius: 15px;
+  border: 1px solid #33333349;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .skills ul {
@@ -88,6 +103,7 @@ a {
 
 .resources {
   text-align: center;
+  border-radius: 15px;
 }
 
 .resources li {
@@ -110,6 +126,7 @@ footer {
   justify-content: center;
   background-color: #333333f2;
   color: #ffffff;
+  border-radius: 10px;
 }
 
 .divider {
@@ -135,33 +152,9 @@ footer {
   max-width: 1080px;
 }
 
-.experience {
-  margin: 0 auto;
-  text-align: left;
-  background-color: #ffffff;
-  padding: 25px;
-  max-width: 1080px;
-}
-
-.education {
-  margin: 0 auto;
-  text-align: left;
-  background-color: #ffffff;
-  padding: 25px;
-  max-width: 1080px;
-}
-
-.hobbies {
-  margin: 0 auto;
-  text-align: left;
-  padding: 25px;
-  background-color: #ffffff;
-  max-width: 1080px;
-}
-
 .navigationBar {
   width: 100%;
-  background-color: #ffffff;
+  background-color: #9e889f2f;
   color: rgb(0, 0, 0);
   text-align: center;
   top: 0;
@@ -220,7 +213,6 @@ footer {
   text-align: center;
   padding: 25px;
   background-color: #ffffff;
-  max-width: 1080px;
 }
 
 * {
@@ -258,7 +250,7 @@ label {
   background-size: calc(100% + 20px) calc(100% + 20px);
   border-radius: 100px;
   border-width: 0;
-  box-shadow: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   box-sizing: border-box;
   color: #FFFFFF;
   cursor: pointer;
