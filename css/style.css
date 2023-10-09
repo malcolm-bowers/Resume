@@ -195,6 +195,7 @@ footer {
 
 .active {
   background-color: rgb(255, 0, 208);
+  border-radius: 15px;
 }
 
 .navigationBar ul {
