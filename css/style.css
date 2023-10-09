@@ -73,7 +73,10 @@ a {
 }
 
 .summary {
-  padding: 25px;
+  padding-top: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
   margin: 0 auto;
   margin-bottom: 25px;
   text-align: left;
@@ -86,7 +89,10 @@ a {
 }
 
 .skills {
-  padding: 25px;
+  padding-top: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
   margin: 0 auto;
   margin-bottom: 25px;
   column-count: 2;
@@ -201,7 +207,7 @@ footer {
 
 .videoWrapper {
   position: flex;
-  padding-bottom: 60%;
+  padding-bottom: 56%;
   /* 16:9 */
   height: 0;
 }
