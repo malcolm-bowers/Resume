@@ -61,7 +61,8 @@ a {
   padding-top: 5px;
   padding-left: 25px;
   padding-right: 25px;
-  background-color: #4a7289d0;
+  background-color: #777777;
+  background-image: linear-gradient(1deg, #8389fa, #446882 99%);
   width: 95vw;
   max-width: 1080px;
   float: none;
@@ -194,7 +195,8 @@ footer {
 }
 
 .active {
-  background-color: rgb(255, 0, 208);
+  background-color: #3EB2FD;
+  background-image: linear-gradient(1deg, #4F58FD, #149BF3 99%);
   border-radius: 15px;
 }
 
