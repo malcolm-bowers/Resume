@@ -31,17 +31,19 @@
         <div class="summary">
             <p>If you have any questions or inquiries, please don't hesitate to contact me. I am here to assist you.</p>
             <p>Thank you for your interest in my work.</p>
+            <div id="loader"></div>
             <form id="emailForm" onsubmit="sendEmail();return false;">
                 <br />
                 <label>Name:</label>
-                <input type="text" id="name" placeholder="name" required" />
+                <input type="text" id="name" placeholder="Someone Doe" required" />
                 <br />
                 <label>Email:</label>
-                <input type="email" id="email" placeholder="email" required" />
+                <input type="email" id="email" placeholder="someone@somewhere.com" required" />
                 <br />
                 <label>Message:</label>
-                <textarea placeholder="message" id="message" style="height:150px" required"></textarea>
-                <br />
+                <textarea placeholder="Hello, it's nice to meet you." id="message" style="height:200px"
+                    required"></textarea>
+                <br /><br />
                 <button type="submit">Submit</button>
             </form>
             <div class="contactLinks">
