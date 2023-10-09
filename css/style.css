@@ -229,7 +229,6 @@ footer {
 
 input[type=text],
 input[type=email],
-select,
 textarea {
   width: 100%;
   padding: 12px;
@@ -241,14 +240,4 @@ textarea {
 label {
   padding: 12px 12px 12px 0;
   display: inline-block;
-}
-
-input[type=submit] {
-  background-color: #04AA6D;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  float: right;
 }
