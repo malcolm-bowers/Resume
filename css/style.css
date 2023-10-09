@@ -93,6 +93,7 @@ a {
 .resources li {
   padding-left: 20px;
   padding-right: 20px;
+  padding-top: 0px;
   padding-bottom: 15px;
   float: none;
   display: inline-block;
@@ -101,7 +102,7 @@ a {
 }
 
 footer {
-  position: relative;
+  position: flex;
   bottom: 0;
   width: 100%;
   padding-bottom: 15px;
@@ -201,7 +202,7 @@ footer {
 }
 
 .videoWrapper {
-  position: relative;
+  position: flex;
   padding-bottom: 60%;
   /* 16:9 */
   height: 0;
