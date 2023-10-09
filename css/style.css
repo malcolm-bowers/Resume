@@ -223,16 +223,6 @@ footer {
   max-width: 1080px;
 }
 
-.formLine {
-  position: flex;
-  margin: 0 auto;
-  text-align: center;
-
-  padding: 25px;
-  background-color: #ffffff;
-  max-width: 1080px;
-}
-
 * {
   box-sizing: border-box;
 }
