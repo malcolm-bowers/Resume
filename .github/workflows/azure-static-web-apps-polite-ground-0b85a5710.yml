@@ -4,7 +4,7 @@ on:
     branches:
       - main
 env:
-  AZURE_FUNCTIONAPP_PACKAGE_PATH: '.'
+  AZURE_FUNCTIONAPP_PACKAGE_PATH: 'api'
   DOTNET_VERSION: '6.0.x'
 jobs:
   deploy-website:
@@ -21,7 +21,6 @@ jobs:
           app_location: ''
           api_location: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}'
           output_location: ''
-          Enable_Oryx_Build: false
   build-and-deploy-azure-function:
     runs-on: ubuntu-latest
     steps:
