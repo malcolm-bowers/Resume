@@ -211,8 +211,8 @@ footer {
 .videoWrapper iframe {
   width: 85vw;
   height: calc(85vw/1.77777778);
-  max-width: 1080px;
-  max-height: 607.5px;
+  max-width: 1030px;
+  max-height: 580px;
 }
 
 .emailForm {
