@@ -82,10 +82,24 @@ a {
   padding-top: 15px;
   padding-bottom: 25px;
   margin: 0 auto;
-  column-count: 3;
+  column-count: 2;
   background-color: #ffffff;
   max-width: 1050px;
   border-radius: 15px;
+}
+
+@media only screen and (max-width: 500px) {
+  .skills {
+    column-count: 1;
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .skills {
+    column-count: 3;
+    text-align: left;
+  }
 }
 
 .skills ul {
