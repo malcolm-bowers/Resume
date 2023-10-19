@@ -22,9 +22,9 @@ class Header extends HTMLElement {
                     background-color: #9e889f2f;
                     color: rgb(0, 0, 0);
                     text-align: center;
-                    top: 0;
                     position: -webkit-sticky;
                     position: sticky;
+                    top: 0;
                 }
                     
                 .navigationBar a {
@@ -37,6 +37,7 @@ class Header extends HTMLElement {
                     
                 .navigationBar a:hover {
                     color: #111;
+                    text-decoration: underline;
                 }
                 
                 .navigationBar a:active {
@@ -75,18 +76,20 @@ class Header extends HTMLElement {
             
         <header>
             <div class="header">
-                <h1>MALCOLM BOWERS</h1>
-                <h2>Software Engineer | Medical and Health Specialist</h2>
+                <h2>MALCOLM BOWERS</h2>
+                <h3>Software Engineer | Medical and Health Specialist</h3>
+                <p>San Antonio, TX 78244</p>
+                <p>(903) 603-5520 | malcolm.bowers@icloud.com</p>
+                <p>https://malcolmbowers.com</p>
+                <p>www.linkedin.com/in/malcolm-bowers-861423180</p> 
             </div>
             <div class="navigationBar">
-                <nav>
-                    <ul>
-                        <li id="nav_home"><a href="index.html">Home</a></li>
-                        <li id="nav_resume"><a href="resume.html">Resume</a></li>
-                        <li id="nav_projects"><a href="projects.html">Projects</a></li>
-                        <li id="nav_contact"><a href="contact.html">Contact</a></li>
-                    </ul>
-                </nav>
+                <ul>
+                    <li id="nav_home"><a href="index.html">Home</a></li>
+                    <li id="nav_resume"><a href="resume.html">Resume</a></li>
+                    <li id="nav_projects"><a href="projects.html">Projects</a></li>
+                    <li id="nav_contact"><a href="contact.html">Contact</a></li>
+                </ul>
             </div>
         </header>
         `;
