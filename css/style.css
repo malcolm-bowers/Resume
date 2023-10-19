@@ -26,17 +26,6 @@ a {
   color: rgb(0, 119, 255);
 }
 
-.header {
-  height: auto;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  background-color: #333333f2;
-  color: #ffffff;
-  text-align: center;
-  box-sizing: border-box;
-}
-
 .latestProjects {
   display: grid;
   text-align: center;
@@ -91,19 +80,12 @@ a {
 
 .skills {
   padding-top: 15px;
-  padding-left: 25px;
-  padding-right: 25px;
   padding-bottom: 25px;
   margin: 0 auto;
-  margin-bottom: 25px;
-  column-count: 2;
-  text-align: left;
+  column-count: 3;
   background-color: #ffffff;
-  width: 90vw;
   max-width: 1050px;
   border-radius: 15px;
-  border: 1px solid #33333349;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .skills ul {
@@ -129,18 +111,6 @@ a {
   list-style: none;
 }
 
-footer {
-  position: flex;
-  bottom: 0;
-  width: 100%;
-  padding-bottom: 15px;
-  text-align: center;
-  justify-content: center;
-  background-color: #333333f2;
-  color: #ffffff;
-  border-radius: 10px;
-}
-
 .divider {
   position: relative;
   height: 1px;
@@ -162,50 +132,6 @@ footer {
   margin: 0 auto;
   padding: 25px;
   max-width: 1080px;
-}
-
-.navigationBar {
-  width: 100%;
-  background-color: #9e889f2f;
-  color: rgb(0, 0, 0);
-  text-align: center;
-  top: 0;
-  position: -webkit-sticky;
-  position: sticky;
-}
-
-.navigationBar a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.navigationBar a:hover {
-  color: #111;
-}
-
-.navigationBar a:active {
-  color: rgb(0, 119, 255);
-}
-
-.navigationBar li {
-  float: left;
-}
-
-.active {
-  background-color: #3EB2FD;
-  background-image: linear-gradient(1deg, #4F58FD, #149BF3 99%);
-  border-radius: 15px;
-}
-
-.navigationBar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
 }
 
 .videoWrapper {

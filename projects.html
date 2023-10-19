@@ -4,22 +4,13 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Malcolm Bowers - Projects</title>
-    <div class="header">
-        <h1>MALCOLM BOWERS</h1>
-        <h2>Software Developer</h2>
-    </div>
-    <div class="navigationBar">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="resume.html">Resume</a></li>
-            <li><a class="active" href="projects.html">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </div>
+    <script type="text/javascript" src="components/header.js" defer></script>
+    <script type="text/javascript" src="components/footer.js" defer></script>
+    <title>Latest Projects</title>
 </head>
 
-<body>
+<body id="projects">
+    <header-component></header-component>
     <main id="pageMain">
         <div class="sectionHeader">
             <h3>
@@ -38,38 +29,18 @@
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen></iframe>
                 </div>
-                <p style="text-align: start;padding-bottom: 15px";>
-                    This is FYLO: Figure Your Life Out. 
+                <p style="text-align: start;padding-bottom: 15px" ;>
+                    This is FYLO: Figure Your Life Out.
                     It is the culmination of all the skills learned at Campbell University for my bachelors degree.
-                    It is both a web and mobile application for users to track the standard operating procedures of their unit.
-                    Built using Django, a Rest API, and Xamarin for mobile development, 
+                    It is both a web and mobile application for users to track the standard operating procedures of
+                    their unit.
+                    Built using Django, a Rest API, and Xamarin for mobile development,
                     this project is a great example of my skills as a developer.
                 </p>
             </div>
         </div>
     </main>
+    <footer-component></footer-component>
 </body>
-
-<footer>
-    <div class="footer">
-        <h4 style="padding-bottom: 0px;">
-            Find me at:
-        </h4>
-        <div class="resources">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <li><a href="https://www.linkedin.com/in/malcolm-bowers-861423180/">
-                                <img src="images/LI-Logo.png" alt="LinkedIn" width="123" height="30" /></a></li>
-                        </a></li>
-                        <li><a href="https://github.com/malcolm-bowers">
-                                <img src="images/GitHub_Logo.png" alt="GitHub" width="112" height="30" /></a></li>
-                    </div>
-                </div>
-            </div>
-        </div>
-        &#169; copyright September 2023 <strong>Malcolm Bowers</strong>
-    </div>
-</footer>
 
 </html>
